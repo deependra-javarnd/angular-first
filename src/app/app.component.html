@@ -1,0 +1,15 @@
+{{ title }}
+<app-test></app-test>
+<app-department-list></app-department-list>
+<app-employee-list></app-employee-list>
+<app-employe-details></app-employe-details>
+
+
+<nav>
+  <!-- routerLinkActive class "active" will apply when that anchor is active -->
+  <a routerLink = "/employees-details" routerLinkActive="active">Details of Employees</a><br>
+  <a routerLink = "/employees-list" routerLinkActive="active">list of Employees</a>
+</nav>
+
+<router-outlet></router-outlet>
+
